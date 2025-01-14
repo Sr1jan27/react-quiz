@@ -2,11 +2,13 @@ import Answer from "./Answer"
 const Question = () =>{
     return (
         <div>
-            <div>Question</div>
-            <Answer/>
-            <Answer/>
-            <Answer/>
-            <Answer/>
+            <div className="question"> Test of our Question</div>
+            <div className="answers">
+                <Answer/>
+                <Answer/>
+                <Answer/>
+                <Answer/>
+            </div>
         </div>
 
     )
