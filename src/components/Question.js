@@ -3,10 +3,10 @@ const Question = () =>{
     return (
         <div>
             <div>Question</div>
-            <div>Answer</div>
-            <div>Answer</div>
-            <div>Answer</div>
-            <div>Answer</div>
+            <Answer/>
+            <Answer/>
+            <Answer/>
+            <Answer/>
         </div>
 
     )

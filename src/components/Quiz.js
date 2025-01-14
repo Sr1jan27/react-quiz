@@ -2,11 +2,11 @@ import Question from "./Question";
 
 const Quiz = () =>{
     return (
-        <div>
+        <div className="quiz">
             <div>
-                Quiz
+                <div className="score">Question 1/8 </div>
+                <Question />
             </div>
-            <Question />
         </div>
     );
 };
